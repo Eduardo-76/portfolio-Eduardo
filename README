@@ -1,0 +1,40 @@
+# Portfólio - Eduardo Moraes
+
+Este é o repositório do meu portfólio pessoal, desenvolvido com HTML e CSS.
+
+## 🚀 Deploy na AWS
+
+O site será hospedado em um bucket S3 na AWS, garantindo alta disponibilidade e escalabilidade. Para melhorar a performance e segurança, o acesso ao portfólio será provisionado através do CloudFront, o serviço de CDN da AWS.
+
+### Como funciona o deploy
+
+- **Bucket S3:** Todos os arquivos estáticos (HTML, CSS, imagens) são armazenados em um bucket S3 configurado para hospedagem de site estático.
+- **CloudFront:** O CloudFront distribui o conteúdo globalmente, reduzindo a latência e protegendo o acesso ao site.
+
+## 📁 Estrutura
+
+```
+portfolio-Eduardo/
+├── Dockerfile
+├── index.html
+├── minha_foto.jpg
+├── projeto1.jpeg
+├── projeto2.jpeg
+├── style.css
+```
+
+## 📦 Como subir para o S3
+
+1. Faça login na AWS.
+2. Crie um bucket S3 com hospedagem de site estático habilitada.
+3. Faça upload de todos os arquivos do diretório `portfolio-Eduardo` para o bucket.
+4. Configure as permissões de leitura pública para os arquivos.
+5. Crie uma distribuição CloudFront apontando para o bucket S3.
+
+## 🌐 Acesso
+
+Após o provisionamento, o portfólio estará disponível globalmente via URL do CloudFront.
+
+---
+Eduardo Moraes  
+[LinkedIn](https://www.linkedin.com/in/eduardo-moraes-5a1b70283) | [GitHub](https://github.com/Eduardo-76)
