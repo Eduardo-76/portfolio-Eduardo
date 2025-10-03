@@ -23,14 +23,6 @@ portfolio-Eduardo/
 ├── style.css
 ```
 
-## 📦 Como subir para o S3
-
-1. Faça login na AWS.
-2. Crie um bucket S3 com hospedagem de site estático habilitada.
-3. Faça upload de todos os arquivos do diretório `portfolio-Eduardo` para o bucket.
-4. Configure as permissões de leitura pública para os arquivos.
-5. Crie uma distribuição CloudFront apontando para o bucket S3.
-
 ## 🌐 Acesso
 
 Após o provisionamento, o portfólio estará disponível globalmente via URL do CloudFront.
